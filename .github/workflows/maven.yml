@@ -13,7 +13,7 @@ on:
 jobs:
   build:
     name: Maven Build
-    runs-on: linux
+    runs-on: ubuntu-latest
     steps:
 #      - run: echo 'ryuk.container.privileged=true' > ~.testcontainers.properties
 #      - run: echo 'ryuk.container.image = testcontainers/ryuk:0.3.3' > ~.testcontainers.properties
